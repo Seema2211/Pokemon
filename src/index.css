@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://wallpaperhook.com/wp-content/uploads/2020/11/Pokemon-HD-Wallpapers-34-From-WallpaperHook.com-For-Free.jpg');
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.cards{
+  margin: 40px 0px;
+  
+}
+.card-body{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(61 64 67 / 50%);
+}
+.cards :hover {
+  text-shadow: 2px 2px rgb(238, 160, 16);
+  top: -5px;
+  left: 5px;
+  box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.2), 0 60px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.react-responsive-modal-modal {
+  background: #1d2124d6;
+}
+.react-responsive-modal-closeButton {
+  background-color: none !important;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+
