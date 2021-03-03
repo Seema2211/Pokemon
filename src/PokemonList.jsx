@@ -37,10 +37,6 @@ const PokemonList = () => {
 
     }, []);
 
-    async function getPokemonDetails(url) {
-        return await axios.get(url);
-    }
-
     return (<>
         <div className="container">
             <div className="row">

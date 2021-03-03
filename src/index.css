@@ -19,8 +19,7 @@ code {
 .card-body{
     text-align: center;
     text-transform: uppercase;
-    color: white;
-    background-color: rgb(61 64 67 / 50%);
+   
 }
 .cards :hover {
   text-shadow: 2px 2px rgb(238, 160, 16);
@@ -38,4 +37,11 @@ h1{
   color: white;
   text-align: center;
 }
-
+.cardImg{
+  height: 300px;
+  width: 300px;
+}
+.modalCard{
+  height: 300px;
+  overflow-y: auto;
+}

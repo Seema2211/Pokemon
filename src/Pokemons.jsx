@@ -36,13 +36,14 @@ const Pokemons = (props) => {
             </div>
             <Modal open={open} onClose={onCloseModal} center>
                     <div className="card">
-                        <img src={props.imgsrc}/>
+                        <img src={props.imgsrc} className="cardImg"/>
                             <div className="card-body">
                                 <h5 className="card-title">{props.pokemon}</h5>
                                 <p className="card-text">
                                     <b>Weight: </b>{weight}<br/>
                                     <b>Height: </b>{height}
-                                    <ul>
+                                    <h3><b>Moves</b></h3>
+                                    <ul className="modalCard" >
                                         {moves.map((items,key) =>{
                                            return( items.map((i,k) =>{
                                                 return(
@@ -52,7 +53,6 @@ const Pokemons = (props) => {
                                         )})}
                                     </ul>
                                 </p>
-                                <a href="#" className="btn btn-primary">Go somewhere</a>
                             </div>
                     </div>
                 
